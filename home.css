@@ -1,0 +1,196 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* 
+.abc{
+    display: flex;
+    flex-direction: row;
+    
+} */
+
+.a1 img{
+   padding: 10px;
+}
+.offers{
+    justify-content: center;
+    margin: auto;
+    align-items: center;
+    background-color: black;
+    color: wheat;
+    text-align: center;
+    height: 40px;
+}
+.offers p{
+    align-items: center;
+    justify-content: center;
+    padding-top: 5px;
+    text-align: center;
+}
+
+.top{
+    position: sticky;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.a2{
+    position: sticky;
+    /* padding-top: 22px; */
+    margin: auto;
+    /* border-radius: 10px; */
+    align-items: center;
+    justify-content: center;
+
+}
+
+.aa{
+    position: sticky;
+    height: 35px;
+    width: 400px;
+    border-radius: 10px;
+}
+
+.li{position: sticky;
+    display: flex;
+    flex-direction: row;
+    padding-right: 30px;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.li ul{
+
+ 
+}
+
+
+
+
+.nav2{
+    position: sticky;
+    background-color: black;
+    color: white;
+   font-weight: 200px;
+}
+
+
+.top2{
+    position: sticky;
+    padding-top: -12px;
+   
+}
+
+
+.li2{
+    position: sticky;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+   font-weight: 200px;
+   /* gap: 120px; */
+  
+}
+
+.li2 a{
+    position: sticky;
+    color: white;
+   font-weight: 200px;
+   text-decoration: none;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#Chevron_Down_24{
+    vertical-align: middle;
+}
+
+@media (max-width:1200px) {
+    .li2{
+        display: flex;
+        flex-direction: column;
+        color: white;
+       font-weight: 200px;
+       
+      
+    }
+}
+
+.first{
+    display: flex;
+    flex-direction: row
+}
+
+
+
+.main{
+    background-image: url("bg2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+   height: 30vw;
+   position: relative;
+
+   opacity: 0.5;
+
+   position: relative;
+
+
+   
+
+}
+.main .box1{
+   
+    opacity: 0.4;
+    height: 30vw;
+    /* background-color: rgb(229, 214, 214); */
+    /* position: absolute; */
+    
+    /* z-index: 1; */
+    
+
+}
+
+
+.pcon{0
+    font-weight: bolder;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: relative;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{opacity: 145;
+    text-align: center;
+    color:aqua;
+}
+/* .pcon span{
+    font-weight: 10000;
+    font-size: larger;
+    text-align: center;
+    color: rgb(46, 17, 231);
+} */
+
+
+
+
+.mbox{
+    height: 30vw;
+    width: 99vw;
+    border: 2px solid red;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.box{
+    padding: 10px 10px;
+    height: 25vw;
+    width: 30vw;
+    border: 2px solid red;
+}
