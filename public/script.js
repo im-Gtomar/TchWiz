@@ -22,3 +22,22 @@ function changeSlide(n) {
   imgs[currentImg].style.opacity = 1;
   dots[currentImg].className += ' active';
 }
+
+var t1 = gsap.timeline();
+t1.from("nav", {
+  opacity:0,
+  y:-50 ,
+  duration:0.4,
+  // delay:0.4,
+ 
+
+})
+t1.from(".container .item ", {
+  opacity:0,
+  y:-50 ,
+  duration:0.8,
+  delay:0.1,
+  stagger:0.2,
+
+})
+
