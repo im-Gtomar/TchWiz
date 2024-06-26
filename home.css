@@ -29,14 +29,15 @@
 }
 
 .top{
-    position: sticky;
+   
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    background-color: #260849;
 
 }
 .a2{
-    position: sticky;
+   
     /* padding-top: 22px; */
     margin: auto;
     /* border-radius: 10px; */
@@ -46,10 +47,11 @@
 }
 
 .aa{
-    position: sticky;
-    height: 35px;
-    width: 400px;
+   
+    height: 2vw;
+    width: 5vw;
     border-radius: 10px;
+
 }
 
 .li{position: sticky;
@@ -60,17 +62,15 @@
     justify-content: center;
     gap: 20px;
 }
-
-.li ul{
-
- 
+.li2:nth-child(4){
+    font-size: 1vw;
 }
 
 
 
 
 .nav2{
-    position: sticky;
+   
     background-color: black;
     color: white;
    font-weight: 200px;
@@ -78,14 +78,14 @@
 
 
 .top2{
-    position: sticky;
+   
     padding-top: -12px;
    
 }
 
 
 .li2{
-    position: sticky;
+   
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -96,7 +96,7 @@
 }
 
 .li2 a{
-    position: sticky;
+   
     color: white;
    font-weight: 200px;
    text-decoration: none;
@@ -126,7 +126,7 @@
 
 
 .main{
-    background-image: url("bg2.jpg");
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/d/d4/Islamia_college_peshawar_building_in_night_time.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
