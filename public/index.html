@@ -16,7 +16,7 @@
         <nav>
             <!-- <img src="logo.png" alt=""> -->
              <h1>UniTrade</h1>
-            <input type="text">
+            <input id="input" type="text">
             <a href=""> <i class="ri-search-2-line"></i></a>
             <li></li>
             <a href=""><i class="ri-heart-line"></i></a>
@@ -28,17 +28,19 @@
             <div class="slider">
                 <img
                   id="img-1"
-                  src="https://marketplace.canva.com/EAE6uxzge6c/1/0/1600w/canva-yellow-and-white-minimalist-big-sale-banner-BjBIq-T_6j4.jpg"
+                  src="ban1.png"
                   alt="Image 1"
                 />
                 <img
                   id="img-2"
-                  src="https://marketplace.canva.com/EAE6uxzge6c/1/0/1600w/canva-yellow-and-white-minimalist-big-sale-banner-BjBIq-T_6j4.jpg"
+                  src="ban4.png"
+
                   alt="Image 2"
                 />
                 <img
                   id="img-3"
-                  src="https://marketplace.canva.com/EAE6uxzge6c/1/0/1600w/canva-yellow-and-white-minimalist-big-sale-banner-BjBIq-T_6j4.jpg"
+                  src="ban3.png"
+
                   alt="Image 3"
                 />
               </div>
@@ -47,89 +49,13 @@
                 <span class="dot" onclick="changeSlide(1)"></span>
                 <span class="dot" onclick="changeSlide(2)"></span>
               </div>
-      
+   
     <div class="container">
-        <div class="item">
-            <img src="https://www.kokuyocamlin.com/camlin/camel-access/image/catalog/assets/camlin/geometry-box/technical-instruments/student-mini-drafter/individual-instrument/2.JPG" alt="Item Image">
-            <h4>Drafter</h4>
-            <button>BUY NOW</button>
+      <div class="people">
         </div>
-        <div class="item">
-            <img src="https://campusstore.ucsb.edu/storeimages/108-984490-1.jpg" alt="Item Image">
-            <h4>Chemistry Lab Coat</h4>
-            <button>BUY NOW</button>
-        </div>
-        <div class="item">
-            <img src="https://ahooza.com/wp-content/uploads/2022/09/a14-16.webp" alt="Item Image">
-            <h4>Electrical Quantum 1st Year</h4>
-            <button>BUY NOW</button>
-        </div>
-        <div class="item">
-            <img src="https://ahooza.com/wp-content/uploads/2023/10/1-10.webp" alt="Item Image">
-            <h4>Mechanical Quantum 1st Year</h4>
-            <button>BUY NOW</button>
-        </div>
-        <div class="item">
-            <img src="https://5.imimg.com/data5/NW/PQ/MY-51077337/whatsapp-image-2017-12-16-at-1-02-15-pm-500x500.jpeg" alt="Item Image">
-            <h4>Study Table</h4>
-            <button>BUY NOW</button>
-        </div>
-        <div class="item">
-            <img src="" alt="Item Image">
-            <h4>Drafter</h4>
-            <button>BUY NOW</button>
-        </div>
-        <div class="item">
-            <img src="" alt="Item Image">
-            <h4>Drafter</h4>
-            <button>BUY NOW</button>
-        </div>
-        <div class="item">
-            <img src="" alt="Item Image">
-            <h4>Drafter</h4>
-            <button>BUY NOW</button>
-        </div>
-        <div class="item">
-            <img src="" alt="Item Image">
-            <h4>Drafter</h4>
-            <button>BUY NOW</button>
-        </div>
-        <div class="item">
-            <img src="" alt="Item Image">
-            <h4>Drafter</h4>
-            <button>BUY NOW</button>
-        </div>
-        <div class="item">
-            <img src="" alt="Item Image">
-            <h4>Drafter</h4>
-            <button>BUY NOW</button>
-        </div>
-        <div class="item">
-            <img src="" alt="Item Image">
-            <h4>Drafter</h4>
-            <button>BUY NOW</button>
-        </div>
-        <div class="item">
-          <img src="" alt="Item Image">
-          <h4>Drafter</h4>
-          <button>BUY NOW</button>
-      </div>
-      <div class="item">
-          <img src="" alt="Item Image">
-          <h4>Drafter</h4>
-          <button>BUY NOW</button>
-      </div>
-      <div class="item">
-          <img src="" alt="Item Image">
-          <h4>Drafter</h4>
-          <button>BUY NOW</button>
-      </div>
-      <div class="item">
-          <img src="" alt="Item Image">
-          <h4>Drafter</h4>
-          <button>BUY NOW</button>
-      </div>
-       
+      
+    </div>
+        
       <div id="testimonial">
         <h1>WHY CHOOSE US ?</h1>
         <ul>
@@ -247,5 +173,35 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="script.js"></script>
+
+    <style>
+    .people
+  
+  {
+      
+      /* width: fit-content; */
+      /* background-color: aquamarine; */
+      display: flex;
+    flex-wrap: wrap;
+
+      /* flex-direction: column; */
+      justify-content: center;
+      align-items: center;
+  }
+  @media (max-width:600px) {
+    .people
+  
+  {
+      gap: 10vw;
+      padding: 0;
+      display: flex;
+    /* flex-wrap: wrap; */
+
+      /* flex-direction: column; */
+      justify-content: center;
+      align-items: center;
+  }
+  }
+    </style>
 </body>
 </html>

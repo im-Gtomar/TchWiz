@@ -104,24 +104,28 @@ nav input{
 
 .slider {
     width: 100%;
-    height: 30.5vw;
+    height: 38.5vw;
     position: relative;
   }
 
   .slider img {
     width: 100%;
-    height: 30vw;
+    height: 38vw;
     position: absolute;
     top: 0;
     left: 0;
     object-fit: cover;
-    object-position:center;
+    /* object-position:top; */
     /* transition: all 0.5s ease-in-out; */
   }
+  .slider img:nth-child(1) {
+   z-index: 1;
+  }
 
-  /* .slider img:first-child {
-    z-index: 1;
-  } */
+  .slider img:nth-child(2) {
+    /* display: none; */
+    object-position: 30% 10%;
+  }
 
  
 
@@ -156,7 +160,7 @@ nav input{
     padding: 2vw;
     gap: 3vw;
   }
-  .item
+  .person
   
 {
     
@@ -167,7 +171,7 @@ nav input{
     justify-content: center;
     align-items: center;
 }
-.item img{
+.img img{
     height: 20vw;
     width: 17vw;
     border: 1px solid #c5c5c5;
@@ -176,7 +180,7 @@ nav input{
     object-position: top;
 
 }
-.item h4{
+.person h4{
     margin: 1vw;
    display: flex;
    justify-content: center;
@@ -184,13 +188,14 @@ nav input{
     width: 18vw;
     /* border: 2px solid black; */
 }
-.item button {
+.person button {
     height: 2.2vw;
     width: 10vw;
     border: none;
     border-radius: 2vw;
     background-color: #212831;
     color: white;
+    margin-bottom: 2vw;
 }
 
 :root {
@@ -342,10 +347,12 @@ button {
 
   #testimonial{
     font-family: gilroy;
+    margin: 3vw 10vw;
     width: 80vw;
     height: fit-content;
     padding: 3vw;
     border: 1px solid #dadada;
+    /* background-color: red; */
     border-radius: 2vw;
   }
   #testimonial li {
@@ -420,6 +427,7 @@ nav input{
     
 }
 nav h1{
+  /* width: 200vw; */
   padding-left: 2vw;
   font-size: 1rem;
   color: white;
@@ -476,13 +484,13 @@ nav :nth-child(7) {
  }
 .slider {
     width: 100%;
-    height: 60.5vw;
+    height: 50.5vw;
     position: relative;
   }
 
   .slider img {
     width: 100%;
-    height: 60vw;
+    height: 50vw;
     position: absolute;
     top: 0;
     left: 0;
@@ -495,6 +503,15 @@ nav :nth-child(7) {
     z-index: 1;
   } */
 
+  .slider img:nth-child(1) {
+    z-index: 1;
+
+   }
+ 
+   .slider img:nth-child(2) {
+     /* display: none; */
+     object-position: 30% 10%;
+   }
  
 
   .navigation-button {
@@ -527,7 +544,7 @@ nav :nth-child(7) {
     padding: 6vw;
     gap: 15vw;
   }
-  .item
+  .person
   
 {
     
@@ -538,16 +555,16 @@ nav :nth-child(7) {
     justify-content: center;
     align-items: center;
 }
-.item img{
+.person img{
     height: 35vw;
     width: 30vw;
-    border: 2px solid black;
-    border-radius: 2vw;
+    border: 1px solid rgb(114, 114, 114);
+    border-radius: 5vw;
     object-fit: cover;
     object-position: top;
 
 }
-.item h4{
+.person h4{
     margin: 4vw;
    display: flex;
    padding: 5vw;
@@ -557,7 +574,7 @@ nav :nth-child(7) {
     width: 25vw;
     /* border: 2px solid black; */
 }
-.item button {
+.person button {
     height: fit-content;
     width: fit-content;
     border: none;
@@ -574,9 +591,10 @@ nav :nth-child(7) {
 }
 #testimonial li {
   line-height: 10vw;
-  font-size: 1.1rem;
+  font-size: 0.9rem;
 }
 #testimonial h1 {
   justify-self: center;
+  font-size: 1.5rem;
 }
 }
