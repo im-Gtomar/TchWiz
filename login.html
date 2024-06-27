@@ -10,101 +10,180 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.rtl.min.css"
         integrity="sha384-dpuaG1suU0eT09tx5plTaGMLBsfDLzUCCUXOY2j/LSvXYuG6Bqs43ALlhIqAJVRb" crossorigin="anonymous">
 
-    <title>hello world</title>
-    
-    <link rel="stylesheet" href="style.css">
+    <title>Signin/Signup</title>
+    <style>
+        * {
+    margin: 0px 0px;
+    padding: 0px 0px;
+}
+
+body {
+    background-color: black;
+    color: aqua;   
+}
+.form {
+    color:white !important;
+background-color: #15172b;
+border-radius: 20px;
+box-sizing: border-box;
+height: 500px;
+padding: 20px;
+width: 320px;
+}
+
+.title {
+color: #eee;
+font-family: sans-serif;
+font-size: 36px;
+font-weight: 600;
+margin-top: 30px;
+}
+
+.subtitle {
+color: #eee;
+font-family: sans-serif;
+font-size: 16px;
+font-weight: 600;
+margin-top: 10px;
+}
+
+.input-container {
+height: 50px;
+position: relative;
+width: 100%;
+}
+
+.ic1 {
+margin-top: 40px;
+}
+
+.ic2 {
+margin-top: 30px;
+}
+
+.input {
+background-color: #303245;
+border-radius: 12px;
+border: 0;
+box-sizing: border-box;
+color: #eee;
+font-size: 18px;
+height: 100%;
+outline: 0;
+padding: 4px 20px 0;
+width: 100%;
+}
+
+.cut {
+background-color: #15172b;
+border-radius: 10px;
+height: 20px;
+left: 20px;
+position: absolute;
+top: -20px;
+transform: translateY(0);
+transition: transform 200ms;
+width: 76px;
+}
+
+.cut-short {
+width: 50px;
+}
+
+.input:focus ~ .cut,
+.input:not(:placeholder-shown) ~ .cut {
+transform: translateY(8px);
+}
+
+.placeholder {
+    width: 88px;
+color: #65657b;
+font-family: sans-serif;
+left: 15px;
+line-height: 23px;
+pointer-events: none;
+position: absolute;
+border-radius: 9px;
+transform-origin: 0 50%;
+transition: transform 200ms, color 200ms;
+top: 15px;
+}
+
+.input:focus ~ .placeholder,
+.input:not(:placeholder-shown) ~ .placeholder {
+transform: translateY(-30px) translateX(10px) scale(0.75);
+}
+
+.input:not(:placeholder-shown) ~ .placeholder {
+color: #808097;
+}
+
+.input:focus ~ .placeholder {
+color: #dc2f55;
+}
+
+.submit {
+background-color: #08d;
+border-radius: 12px;
+border: 0;
+box-sizing: border-box;
+color: #eee;
+cursor: pointer;
+font-size: 18px;
+height: 50px;
+margin-top: 38px;
+/* outline: 0; */
+text-align: center;
+width: 100%;
+}
+.bas:hover{
+ color: red !important;
+}
+
+.submit:hover{
+    background-color: rgb(255, 255, 255) !important;
+    color: rgb(0, 0, 0);
+}
+
+.submit:active {
+background-color: #06b;
+}
+
+.att{
+align-items: center;
+background-color: #000;
+display: flex;
+justify-content: center;
+height: 100vh;
+}
+
+
+    </style>
        
 </head>
 
 <body>
+    
 
-    <nav class="navbar navbar-expand-lg bg-body-tertiary " style="background-color: black; ">
-        <div class="container-fluid " style="color: aqua; background-color: black;">
-            <a class="navbar-brand" href="#"><img src="Screenshot 2024-06-24 220840.png" alt="" height="50px"
-                    width="202px"> </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item" style="gap: 20px;">
-                        <a class="nav-link active" aria-current="page" href="#" style="color: aqua;">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#" style="color: aqua; ">About</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false" style="color: aqua;">
-                            Looking for?
-                        </a>
-                        <ul class="dropdown-menu" style="background-color: rgb(29, 42, 238);">
-                            <li><a class="dropdown-item" href="#" style="color: aqua; ">Gadgets</a></li>
-                            <li><a class="dropdown-item" href="#" style="color: aqua;">Werable</a></li>
-                            <li>
-                                <hr class="dropdown-divider" style="color: aqua;">
-                            </li>
-                            <li><a class="dropdown-item" href="#" style="color: aqua;">Books</a></li>
-                            <li><a class="dropdown-item" href="#" style="color: aqua;">Otherss</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link disabled">T&C</a>
-                    </li>
-                </ul>
-                <form class="d-flex" role="search">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit">Search</button>
-                </form>
-            </div>
-        </div>
-    </nav>
-
-
-
-
-    <div class="alert alert-info alert-dismissible fade show" role="alert">
-        <strong>New semester has been arrived and so the items ...checkout </strong> You should check in on some of
-        those fields below.
-        <h5> <span class="badge text-bg-secondary">New</span></h5>
-        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
-    </div>
-    <!-- Optional JavaScript; choose one of the two! -->
-
-    <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-        crossorigin="anonymous"></script>
-
-    <!-- Option 2: Separate Popper and Bootstrap JS -->
-    <!--
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
-    -->
-    <h2>
-        PLEASE ENTER YOUR DETAILS
-    </h2>
 
 
     <div class="att">
 
         <div class="form">
-            <div class="title">Welcome</div>
-            <div class="subtitle">Let's create your account!</div>
+            <div class="title">Sign-In</div>
+            <!-- <div class="subtitle">Let's create your account!</div> -->
             <div class="input-container ic1">
-              <input id="firstname" class="input" type="text" placeholder=" " />
+              <input id="firstname" class="input" type="text" placeholder="Firstname" />
               <div class="cut"></div>
               <label for="firstname" class="placeholder" style="color: rgb(0, 0, 0);">First Name</label>
             </div>
             <div class="input-container ic2">
-              <input id="lastname" class="input" type="text" placeholder=" " />
+              <input id="lastname" class="input" type="text" placeholder="Lastname" />
               <div class="cut"></div>
               <label for="lastname" class="placeholder">Last name</label>
             </div>
             <div class="input-container ic2">
-              <input id="email" class="input" type="text" placeholder=" " />
+              <input id="email" class="input" type="text" placeholder="Email" />
               <div class="cut cut-short"></div>
               <label for="email" class="placeholder">Email
             </div>
@@ -112,6 +191,10 @@
             <button type="text" class="submit">submit</button>
           </div>
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
 </body>
 
 </html>
