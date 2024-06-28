@@ -29,13 +29,13 @@ data = [
   {name: "Chemistry Lab Coat", src: "https://campusstore.ucsb.edu/storeimages/108-984490-1.jpg", price: 160},
   {name: "Calculator", src: "https://images.unsplash.com/photo-1574607383077-47ddc2dc51c4?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fGNhbGN1bGF0b3J8ZW58MHx8MHx8fDA=", price: 490},
   {name: "Table Lamp", src: "https://m.media-amazon.com/images/I/81lsXXUWzpL.SX679.jpg", price: 200},
-  {name: "Electrical Quantum 1st Year", src: "https://ahooza.com/wp-content/uploads/2022/09/a14-16.webp", price: 150},
-  {name: "Mechanical Quantum 1st Year", src: "https://ahooza.com/wp-content/uploads/2023/10/1-10.webp", price: 150},
-  {name: "Engineering Mathematics Vol 3 By HK Das", src: "https://m.media-amazon.com/images/I/71vbjZ-PWuL.AC_UF1000,1000_QL80.jpg", price: 100},
+  {name: "Electrical Quantum", src: "https://ahooza.com/wp-content/uploads/2022/09/a14-16.webp", price: 150},
+  {name: "Mechanical Quantum", src: "https://ahooza.com/wp-content/uploads/2023/10/1-10.webp", price: 150},
+  {name: "Mathematics Vol 3", src: "https://m.media-amazon.com/images/I/71vbjZ-PWuL.AC_UF1000,1000_QL80.jpg", price: 100},
   
-  {name: "ENGINEERING Physics- II 2nd semester", src: "https://m.media-amazon.com/images/I/81VVAeVYJqL.AC_UF1000,1000_QL80.jpg", price: 180},
+  {name: "Physics- II 2nd sem", src: "https://m.media-amazon.com/images/I/81VVAeVYJqL.AC_UF1000,1000_QL80.jpg", price: 180},
  
-  {name: "fancy trolley suitcase", src: "https://5.imimg.com/data5/ANDROID/Default/2022/12/LO/EX/OW/29789006/product-jpeg-500x500.jpg", price: 550},
+  {name: "Fancy trolley suitcase", src: "https://5.imimg.com/data5/ANDROID/Default/2022/12/LO/EX/OW/29789006/product-jpeg-500x500.jpg", price: 550},
 
   {name: "Backpack", src: "https://m.media-amazon.com/images/I/716lyn7UFdL.AC_UY1100.jpg", price: 780},
   {name: "Study Table", src: "https://www.firstcrawl.in/cdn/shop/products/9992751c_800x.jpg?v=1664118349", price: 420},
