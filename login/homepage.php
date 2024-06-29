@@ -26,7 +26,11 @@ include("connect.php");
        ?>
        :)
       </p>
-      <a href="logout.php">Logout</a>
+
+      <h2><a href="" style="text-decoration: none; :hover{
+        color: blue;
+      }">back to site</a></h2>
+      <a href="http://127.0.0.1:5501/public/index.html" style="">Back to site</a>
     </div>
 </body>
 </html>
