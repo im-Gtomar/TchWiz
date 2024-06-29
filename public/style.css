@@ -419,6 +419,37 @@ button {
     height: 35vw;
     background-color: #dadada;
   }
+  .content{
+    padding: 2vw;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: monument;
+
+  }
+  .content h2 {
+    display: flex;
+    align-items: center;
+
+    margin-bottom: 3vw;
+    display: grid;
+    grid-template-columns: 55% 25% 19%;
+    
+    /* background-color: #545252; */
+    width: 100%;
+    
+  }
+  .content h2 button{
+    font-size: 1.2vw;
+    height: 2.2vw;
+    width: 10vw;
+    border: none;
+    border-radius: 2vw;
+    background-color: #212831;
+    color: white;
+    /* margin-bottom: 2vw; */
+  }
   .ri-close-circle-line{
     border-radius:1 vw ;
     position: absolute;
