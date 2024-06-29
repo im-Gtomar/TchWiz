@@ -67,12 +67,9 @@ nav :nth-child(7) {
  nav :nth-child(7):hover {
   color: #111;
  }
-nav img {
-    height: 3vw;
-    /* width: 8vw; */
-    padding-left: 2vw;
-}
+
 nav h1{
+  font-size: 2vw;
   padding-left: 2vw;
   color: white;
   font-family: monument;
@@ -170,6 +167,9 @@ nav input{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+.person h3{
+  display: none;
 }
 .img img{
     height: 20vw;
@@ -362,7 +362,104 @@ button {
   #testimonial h1{
     margin-bottom: 2vw;
   }
-  
+
+  #description{
+    margin: 5vw;
+    /* margin-top: 0; */
+    border-radius: 3vw;
+    width: 90vw;
+    height: 50vw;
+    position: absolute;
+    top:45vw;
+    border:1px solid #dadada;
+    background-color: #131921;
+    display: none;
+    z-index: 3;
+  }
+  #description .img , #description img{
+    position: absolute;
+    top: 4vw;
+    left: 3vw;
+    border-radius: 3vw;
+    height: 30vw;
+    width: 20vw;
+    /* background-color: red; */
+    object-fit: cover;
+
+  }
+  #description .img {
+    position: relative;
+  }
+  .price{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   text-align: center;
+    border-radius:3vw ;
+    position: absolute;
+    
+    top: 110%;
+    
+    width: 20vw;
+    height: 10vw;
+    background-color: #dadada;
+  }
+  .price h3{
+    font-size: 30px;
+    font-weight: 900;
+    font-family: 'Gill Sans';
+    text-transform: capitalize;
+  }
+  .des{
+    border-radius:3vw ;
+    position: absolute;
+    top: 15%;
+    right: -300%;
+    width: 55vw;
+    height: 35vw;
+    background-color: #dadada;
+  }
+  .content{
+    padding: 2vw;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: monument;
+
+  }
+  .content h2 {
+    display: flex;
+    align-items: center;
+
+    margin-bottom: 3vw;
+    display: grid;
+    grid-template-columns: 55% 25% 19%;
+    
+    /* background-color: #545252; */
+    width: 100%;
+    
+  }
+  .content h2 button{
+    font-size: 1.2vw;
+    height: 2.2vw;
+    width: 10vw;
+    border: none;
+    border-radius: 2vw;
+    background-color: #212831;
+    color: white;
+    /* margin-bottom: 2vw; */
+  }
+  .ri-close-circle-line{
+    border-radius:1 vw ;
+    position: absolute;
+    top: -10%;
+    font-size: 30px;
+    right: -320%;
+    
+    color: white;
+    /* background-color: #17C3B2; */
+  }
   @media screen and (min-width: 24.375em) {
     .legal .legal__links {
       margin-left: auto;
@@ -596,5 +693,82 @@ nav :nth-child(7) {
 #testimonial h1 {
   justify-self: center;
   font-size: 1.5rem;
+}
+#description{
+  margin: 5vw;
+  /* margin-top: 0; */
+  border-radius: 3vw;
+  width: 90vw;
+  height: 60vh;
+  position: absolute;
+  top:25vh;
+  border:1px solid #dadada;
+  background-color: #131921;
+  display: none;
+  z-index: 3;
+}
+#description .img , #description img{
+  position: absolute;
+  top: 4vw;
+  left: 4vh;
+  /* right: 40vh; */
+  border-radius: 3vw;
+  height: 45vw;
+  width: 35vw;
+  /* background-color: red; */
+  object-fit: cover;
+
+}
+#description .img {
+  position: relative;
+}
+.price{
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ text-align: center;
+  border-radius:3vw ;
+  position: absolute;
+  
+  top: 4vh;
+  left: 19vh;
+  width: 28vw;
+  height: 29vw;
+  background-color: #dadada;
+}
+.price h3{
+  font-size: 16px;
+  font-weight: 900;
+  font-family: 'Gill Sans';
+  text-transform: capitalize;
+}
+.price h4{
+  font-size: 20px;
+  font-weight: 900;
+  font-family: 'Gill Sans';
+  text-transform: capitalize;
+}
+.des{
+  border-radius:3vw ;
+  position: absolute;
+  top: 25vh;
+  padding: 2vw;
+  right: -15vh;
+  width: 65vw;
+  height: 55vw;
+  background-color: #dadada;
+}
+.des p{
+  font-size: 2rem;
+}
+.ri-close-circle-line{
+  border-radius:1 vw ;
+  position: absolute;
+  top:-9%;
+  font-size: 30px;
+  right: -120%;
+  
+  color: white;
+  /* background-color: #17C3B2; */
 }
 }
