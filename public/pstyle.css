@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+ #main {
+
+    height: 100%;
+    position: relative;
+    width: 100%;
+    /* background: red; */
+    /* background-color: #8d9696; */
+    
+ }
+ nav{
+    display: grid;
+    height: 20%;
+    background-color:#131921 ;
+    width: 100%;
+    padding:1vw 0;
+    grid-template-columns: 20% 39% 2% 20% 3% 3% 3% ;
+}
+nav :nth-child(7){
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  padding:0.5vw 1.5vw;
+  background-color: red;
+  border-radius: 30px;
+}
+nav :nth-child(7) {
+  padding: 0.8em 1.8em;
+  border: 2px solid #17C3B2;
+  position: relative;
+  overflow: hidden;
+  background-color: transparent;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 16px;
+  transition: .3s;
+  z-index: 1;
+  font-family: inherit;
+  color: #17C3B2;
+ }
+ 
+ nav :nth-child(7)::before {
+  content: '';
+  width: 0;
+  height: 300%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(45deg);
+  background: #17C3B2;
+  transition: .5s ease;
+  display: block;
+  z-index: -1;
+ }
+ 
+ nav :nth-child(7):hover::before {
+  width: 100%;
+ }
+ 
+ nav :nth-child(7):hover {
+  color: #111;
+ }
+
+nav h1{
+  font-size: 2vw;
+  padding-left: 2vw;
+  color: white;
+  font-family: monument;
+  letter-spacing: 2px;
+  align-self: center;
+}
+nav a {
+    text-decoration: none;
+   color: white;
+}
+
+nav i{
+    padding: 0.5vw;
+    font-size: 1.5rem;
+    /* border: 2px solid black; */
+    display: block;
+    justify-self: center;
+    align-self: center;
+
+}
+nav input{
+    padding:0.5vw 2vw;
+    border-radius: 2vh;
+    height: 2vw;
+    align-self: center;
+    border: 1px solid #f8f8f8;
+    
+}
+#top {
+    height: 40vw;
+    align-items: center;
+    border-radius: 2vw;
+    padding: 2vw;
+    margin:3vw 8vw;
+    background-color: #dadada;
+    display: flex;
+    justify-content: space-around;
+}
+#top h1 {
+    font-size: 2vw;     
+    width: 40vw;
+    /* background-color: #17C3B2; */
+}
+#top h1:nth-child(3) {
+    font-size: 1vw;     
+    width: 20vw;
+    /* background-color: #17C3B2; */
+}
+#top img {
+    height: 15vw;
+    object-fit: cover;
+    border-radius: 50%;
+    width: 15vw;
+}
+#left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 35vw;
+    padding: 5vw;
+    
+}
