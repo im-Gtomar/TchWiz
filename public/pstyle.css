@@ -12,6 +12,11 @@
     /* background-color: #8d9696; */
     
  }
+ @font-face {
+    font-family: 'monument';
+    src: url(monumentextended-regular-webfont.woff) format('woff');
+    src: url(monumentextended-regular-webfont.woff2) format('woff2');
+   }
  nav{
     display: grid;
     height: 20%;

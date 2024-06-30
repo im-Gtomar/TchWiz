@@ -6,6 +6,11 @@
     padding: 0;
     box-sizing: border-box;
  }
+ @font-face {
+  font-family: 'monument';
+  src: url(monumentextended-regular-webfont.woff) format('woff');
+  src: url(monumentextended-regular-webfont.woff2) format('woff2');
+ }
  #main {
 
     height: 100%;

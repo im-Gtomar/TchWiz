@@ -8,7 +8,11 @@ body {
     margin: 0;
     overflow: hidden;
 }
-
+@font-face {
+    font-family: 'monument';
+    src: url(monumentextended-regular-webfont.woff) format('woff');
+    src: url(monumentextended-regular-webfont.woff2) format('woff2');
+   }
 .container {
     background-color: #fff;
     padding: 40px;
